@@ -46,7 +46,7 @@ fun main() {
     else
         println(greeting);
 
-    //like a switch case in java , kotlin has whne
+    //like a switch case in java , kotlin has when
     when(greeting)
     {
         null-> println("hi")
@@ -54,9 +54,11 @@ fun main() {
         else-> println("not null")
     }
 
+
     println(Greeting())
 
     //calling the paramterized function
     param("Subhani")
+
 
 }
